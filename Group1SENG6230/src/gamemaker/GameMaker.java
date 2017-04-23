@@ -95,7 +95,7 @@ public class GameMaker extends JFrame {
 	}
 	*/
 	
-	
+	/**
 	public void paint(Graphics g){
     	super.paint(g);
     	g.setColor(Color.blue);
@@ -106,7 +106,7 @@ public class GameMaker extends JFrame {
     	x = e.getX();
     	y = e.getY();
     }
-   
+   */
 	
 	public static void main(String[] args) {
         new GameMaker();
