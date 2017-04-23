@@ -16,7 +16,7 @@ public class VocabularyListPanelStub extends JPanel{
 	private JTextField nlv1, nlv2, nlv3, nlv4, nlv5, nlv6, nlv7, nlv8, nlv9, nlv10;
 	
 	public VocabularyListPanelStub() {
-		setLayout(new GridLayout(10, 2));
+		setLayout(new GridLayout(11, 2));
 		setBackground(Color.WHITE);
 		setForeground(Color.GRAY);
 		setBorder(BorderFactory.createLineBorder(Color.BLUE));
