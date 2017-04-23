@@ -9,6 +9,10 @@ package useraccount;
  * @author Group 1
  *
  */
-public class playerAccountGUI {
+public class PlayerAccountGUI {
+	
+	public PlayerAccountGUI() {
+		
+	}
 
 }
