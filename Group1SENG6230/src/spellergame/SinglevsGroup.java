@@ -48,8 +48,6 @@ public class SinglevsGroup extends JFrame {
         pack();
         setVisible(true);
         
-        
-		
 	}
 	
 	private void buildButtonPanel() {
