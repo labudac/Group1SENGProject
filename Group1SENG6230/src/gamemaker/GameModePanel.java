@@ -20,6 +20,8 @@ public class GameModePanel extends JPanel{
 	
 	public GameModePanel() {
 		setLayout(new GridLayout(4, 1));
+		setBackground(Color.WHITE);
+		setForeground(Color.BLUE);
 		singleMode = new JRadioButton("Single Player Mode", true);
 		teamMode = new JRadioButton("Team Player Mode");
 		spellOnlyMode = new JRadioButton("Spelling Only Mode");
@@ -45,7 +47,7 @@ public class GameModePanel extends JPanel{
 	
 	/**
 	 * Method to select game mode
-	 * @return the game mode selections
+	 * @return the game mode selection
 	 */
 	
 	public int getGameMode() {
@@ -56,6 +58,10 @@ public class GameModePanel extends JPanel{
 		return gameMode;
 	}
 	
+	/**
+	 * Method to select spelling and translate mode
+	 * @return the spelling and translate mode selection
+	 */
 	public int getSpellMode() {
 		if (spellOnlyMode.isSelected())
 			spellMode = 1;
